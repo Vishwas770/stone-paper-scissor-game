@@ -65,6 +65,18 @@ choices.forEach((choice) => {
 
 
 
+//mode change
+
+const button = document.getElementById("mode-toggle");
+const body = document.body;
+
+function toggleMode() {
+  body.classList.toggle("light-mode"); // Toggle the "light-mode" class on the body
+}
+
+button.addEventListener("click", toggleMode);
+
+
 
 
 
